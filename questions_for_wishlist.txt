@@ -52,8 +52,11 @@
 
 14. Selects the count of items on the wishlish of the user with your name.
 
-14n
-    15. Selects the count and name of all products on the wishlist, ordered by count in descending order.
+14n select COUNT(user_id) from wishlists where user_id = 8;
+
+15. Selects the count and name of all products on the wishlist, ordered by count in descending order.
+
+15o 
     16. Selects the count and name of all products that are not on sale on the wishlist, ordered by count in descending order.
     17. Inserts a user with the name "Jonathan Anderson" into the users table. Ensure the created_at column is set to the current time.
     18. Selects the id of the user with the name "Jonathan Anderson"?
