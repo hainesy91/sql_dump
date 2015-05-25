@@ -75,6 +75,9 @@
 19s insert into wishlists (user_id, product_id) VALUES (15, 4);
     
 20. Updates the name of the "Jonathan Anderson" user to be "Jon Anderson".
+
+20t UPDATE users set name = 'Jon Anderson' where name = 'Jonathan Anderson';   
+
     21. Deletes the user with the name "Jon Anderson".
     22. Deletes the wishlist item for the user you just deleted.
 
