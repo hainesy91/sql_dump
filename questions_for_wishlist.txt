@@ -71,6 +71,8 @@
 18r select id from users where name = 'Jonathan Anderson';
     
 19. Inserts a wishlist entry for the user with the name "Jonathan Anderson" for the product "The Ruby Programming Language".
+
+19s insert into wishlists (user_id, product_id) VALUES (15, 4);
     
 20. Updates the name of the "Jonathan Anderson" user to be "Jon Anderson".
     21. Deletes the user with the name "Jon Anderson".
