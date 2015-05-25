@@ -60,12 +60,19 @@
 
 16. Selects the count and name of all products that are not on sale on the wishlist, ordered by count in descending order.
 
-16p 
+16p
 
-    17. Inserts a user with the name "Jonathan Anderson" into the users table. Ensure the created_at column is set to the current time.
-    18. Selects the id of the user with the name "Jonathan Anderson"?
-    19. Inserts a wishlist entry for the user with the name "Jonathan Anderson" for the product "The Ruby Programming Language".
-    20. Updates the name of the "Jonathan Anderson" user to be "Jon Anderson".
+17. Inserts a user with the name "Jonathan Anderson" into the users table. Ensure the created_at column is set to the current time.
+
+17q insert into users (name, created_at) values ('Jonathan Anderson', time());
+
+18. Selects the id of the user with the name "Jonathan Anderson"?
+
+18r select id from users where name = 'Jonathan Anderson';
+    
+19. Inserts a wishlist entry for the user with the name "Jonathan Anderson" for the product "The Ruby Programming Language".
+    
+20. Updates the name of the "Jonathan Anderson" user to be "Jon Anderson".
     21. Deletes the user with the name "Jon Anderson".
     22. Deletes the wishlist item for the user you just deleted.
 
