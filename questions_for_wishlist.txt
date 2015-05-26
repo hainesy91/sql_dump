@@ -78,7 +78,10 @@
 
 20t UPDATE users set name = 'Jon Anderson' where name = 'Jonathan Anderson';   
 
-    21. Deletes the user with the name "Jon Anderson".
+21. Deletes the user with the name "Jon Anderson".
+
+21u delete from users where name = 'Jon Anderson';
+
     22. Deletes the wishlist item for the user you just deleted.
 
 Please supply SQL statements, and the results they generate.
